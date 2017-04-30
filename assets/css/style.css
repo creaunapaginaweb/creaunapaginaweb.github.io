@@ -1,0 +1,157 @@
+@import url('normalize.css');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900|Merriweather');
+
+html {
+  font-size: 10px;
+}
+body {
+  color: #202531;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+}
+
+h1 {
+  font-size: 70px;
+  color: #468ed7;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 35px;
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 28px;
+  font-size: 2.8rem;
+}
+
+p, span, a, strong, ul, li {
+  font-family: 'Merriweather', serif;
+}
+
+p, ul, li, strong {
+  font-size: 19px;
+  font-size: 1.9rem;
+  -webkit-font-smoothing:antialiased;
+  line-height: 1.6;
+}
+
+/* GRID */
+
+.wrapper {
+  max-width: 900px;
+  margin: auto;
+}
+
+.wrapper--lg {
+  max-width: 1200px;
+}
+
+.col {
+  float: left;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.one-third {
+  width: 33.33%;
+}
+
+.one-fourth {
+  width: 25%;
+}
+
+.one-fifth {
+  width: 20%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.intro {
+  /*background: #4399f1;*/
+  padding: 1em;
+  /*height: 500px;*/
+  /*color: #fff;*/
+  text-align: center;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.intro p {
+  /*font-size: 25px;*/
+}
+
+.reasons {
+  margin-top: 7em;
+}
+
+.reasons:after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.reason h3{
+  font-size: 16px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.reason p{
+  font-size: 15px;
+  font-family: 'Lato';
+  text-align: center;
+  margin-top: 10px;
+}
+
+.img {
+  height: 170px;
+  text-align: center;
+}
+
+.img img {
+  max-height: 170px;
+  box-sizing: border-box;
+}
+
+.reasons .col:first-child .img img {
+  max-height: 150px;
+      margin-top: 10px;
+}
+
+.reasons .col:nth-child(2) .img img {
+  max-height: 180px;
+}
+
+.content-nav {
+    position: absolute;
+    left: 0;
+    bottom: -115px;
+    width: 100%;
+}
+
+.link {
+    padding: 1em;
+    background: #2d5bae;
+    margin: 0 -20px;
+    border-right: 1px solid #ebebeb;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Lato';
+}
+
+.content {
+  margin-top: 115px;
+  padding: 4em;
+}
+
+.steps {
+  padding: 0 50px;
+}
