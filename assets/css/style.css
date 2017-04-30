@@ -17,6 +17,7 @@ h1, h2, h3, h4, h5 {
 h1 {
   font-size: 70px;
   color: #468ed7;
+  margin-top: 0;
   margin-bottom: 10px;
 }
 
@@ -31,7 +32,8 @@ h3 {
 }
 
 p, span, a, strong, ul, li {
-  font-family: 'Merriweather', serif;
+  /*font-family: 'Merriweather', serif;*/
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 p, ul, li, strong {
@@ -75,10 +77,8 @@ img {
 }
 
 .intro {
-  /*background: #4399f1;*/
-  padding: 1em;
-  /*height: 500px;*/
-  /*color: #fff;*/
+  padding: 8vh;
+  height: 100vh;
   text-align: center;
   box-sizing: border-box;
   position: relative;
@@ -89,7 +89,7 @@ img {
 }
 
 .reasons {
-  margin-top: 7em;
+  margin-top: 12vh;
 }
 
 .reasons:after {
@@ -99,9 +99,10 @@ img {
 }
 
 .reason h3{
-  font-size: 16px;
+  font-size: 2.3vh;
   margin-bottom: 0;
   text-align: center;
+  letter-spacing: 1px;
 }
 
 .reason p{
@@ -133,7 +134,7 @@ img {
 .content-nav {
     position: absolute;
     left: 0;
-    bottom: -115px;
+    bottom: 0;
     width: 100%;
 }
 
