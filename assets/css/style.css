@@ -88,6 +88,19 @@ img {
   /*font-size: 25px;*/
 }
 
+.updated {
+  -ms-transform: rotate(40deg);
+  -webkit-transform: rotate(40deg);
+  transform: rotate(40deg);
+  position: absolute;
+  right: -52px;
+  top: 50px;
+  font-size: 16px;
+  background: #f3d04f;
+  color: #fff;
+  padding: 7px 45px;
+}
+
 .reasons {
   margin-top: 12vh;
 }
@@ -140,16 +153,27 @@ img {
 
 .link {
     padding: 1em;
-    background: #2d5bae;
+    background: #468ed7;
     margin: 0 -20px;
+    border: 1px solid #468ed7;
     border-right: 1px solid #ebebeb;
     color: #fff;
     font-size: 18px;
     font-family: 'Lato';
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+a.link.active {
+    color: #468ed7;
+    font-weight: 700;
+    background: #fff;
+    border: 1px solid #468ed7;
 }
 
 .content {
-  margin-top: 115px;
   padding: 4em;
 }
 
