@@ -36,7 +36,13 @@ $("#share").jsSocials({
     text: "Cómo crear tu propia página web de la manera más fácil y rápida.",
     shares: [{
       share: "twitter",           // name of share
-      label: "Tweet",             // share button text (optional)
+      label: "Twitter",             // share button text (optional)
       via: "hectorsanchezmx",       // custom twitter sharing param 'via' (optional)
-      }, "facebook","linkedin"]
+      }, {
+    share: "facebook",           // name of share
+    label: "Facebook",             // share button text (optional)
+    },{
+  share: "linkedin",           // name of share
+  label: "LinkedIn",             // share button text (optional)
+  }]
 });
