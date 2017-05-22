@@ -246,7 +246,9 @@ img {
   }
 
   .intro {
+    height: auto;
     padding: 3em 25px;
+    overflow: initial;
   }
 
   h1 {
@@ -255,5 +257,14 @@ img {
 
   .reasons .col.one-third.reason {
     width: 100%;
+  }
+
+  .updated {
+    display: none;
+  }
+
+  .content-nav {
+    position: absolute;
+    bottom: -5em;
   }
 }
