@@ -27,3 +27,16 @@ $(window).scroll(function(){
       $(".content-nav .col a").removeClass('active')
     }
 });
+
+$("#share").jsSocials({
+    url: "https://creaunapaginaweb.github.io/",
+    showCount: true,
+    showLabel: true,
+    shareIn: "popup",
+    text: "Cómo crear tu propia página web de la manera más fácil y rápida.",
+    shares: [{
+      share: "twitter",           // name of share
+      label: "Tweet",             // share button text (optional)
+      via: "hectorsanchezmx",       // custom twitter sharing param 'via' (optional)
+      }, "facebook","linkedin"]
+});

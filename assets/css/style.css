@@ -270,3 +270,17 @@ img {
     bottom: -3em;
   }
 }
+
+.jssocials {
+  margin-bottom: 5em;
+  font-size: 16px;
+}
+
+a.jssocials-share-link {
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+.jssocials-share {
+  margin-right: 1em;
+}
