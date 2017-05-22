@@ -252,7 +252,9 @@ img {
   }
 
   h1 {
-    font-size: 40px;
+    font-size: 50px;
+    margin-top: 1em;
+    margin-bottom: 1em;
   }
 
   .reasons .col.one-third.reason {
@@ -265,6 +267,6 @@ img {
 
   .content-nav {
     position: absolute;
-    bottom: -5em;
+    bottom: -3em;
   }
 }
