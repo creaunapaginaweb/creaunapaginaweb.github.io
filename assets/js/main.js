@@ -38,9 +38,11 @@ $("#share").jsSocials({
       share: "twitter",           // name of share
       label: "Twitter",             // share button text (optional)
       via: "hectorsanchezmx",       // custom twitter sharing param 'via' (optional)
+      logo: "fa fa-twitter"
       }, {
     share: "facebook",           // name of share
     label: "Facebook",             // share button text (optional)
+     logo: "fa fa-facebook"
     },{
   share: "linkedin",           // name of share
   label: "LinkedIn",             // share button text (optional)
