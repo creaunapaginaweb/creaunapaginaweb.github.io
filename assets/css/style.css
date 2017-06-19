@@ -246,7 +246,7 @@ form {
     margin-top: 1em;
 }
 
-input#tlemail {
+input[type="email"] {
     font-size: 16px;
     height: 40px;
     width: 250px !important;
