@@ -383,6 +383,11 @@ a.jssocials-share-link {
 }
 
 @media screen and (max-width: 767px) {
+
+    .livepromo {
+        margin: 3em;
+    }
+    
     .livepromo .live-img, .livepromo div#subscribe {
         width: 100%;
         float: none;
