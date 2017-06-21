@@ -340,3 +340,51 @@ a.jssocials-share-link {
 .jssocials-share {
   margin-right: 1em;
 }
+
+.livepromo {
+    margin: 6em;
+}
+
+.livepromo .wrapper:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.livepromo .live-img {
+    width: 50%;
+    float: left;
+}
+
+.livepromo div#subscribe {
+    width: 50%;
+    float: right;
+}
+
+.livepromo p {
+    font-size: 15px;
+}
+
+.livepromo .form label {
+    font-size: 35px;
+}
+
+.livepromo input[type="email"] {
+    width: 230px !important;
+}
+
+.livepromo input[type="submit"] {
+    float: right;
+    width: 36%;
+}
+
+.livepromo form {
+    padding: 0 30px 92px;
+}
+
+@media screen and (max-width: 767px) {
+    .livepromo .live-img, .livepromo div#subscribe {
+        width: 100%;
+        float: none;
+    }
+}
