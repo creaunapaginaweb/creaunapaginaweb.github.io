@@ -366,7 +366,7 @@ a.jssocials-share-link {
 }
 
 .livepromo .form label {
-    font-size: 35px;
+    font-size: 33px;
 }
 
 .livepromo input[type="email"] {
@@ -386,5 +386,14 @@ a.jssocials-share-link {
     .livepromo .live-img, .livepromo div#subscribe {
         width: 100%;
         float: none;
+    }
+
+    .livepromo input[type="email"] {
+        width: 100% !important;
+    }
+
+    .livepromo input[type="submit"] {
+        float: none;
+        width: 100%;
     }
 }
